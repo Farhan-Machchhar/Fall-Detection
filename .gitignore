@@ -1,0 +1,34 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+dist/
+build/
+*.egg-info/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Large archives (unzipped CSVs are preserved)
+*.zip
+
+# Temporary test artifacts & caches
+.pytest_cache/
+.coverage
+htmlcov/
+data/predictions/
+data/raw/
+data/processed/
+
+# IDE & Operating System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

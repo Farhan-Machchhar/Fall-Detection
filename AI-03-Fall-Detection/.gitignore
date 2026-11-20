@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+dist/
+build/
+*.egg-info/
+
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Temporary predictions
+data/predictions/
+data/raw/
+data/processed/
+
+# Keep feature datasets in repo
+!data/phone_features.csv
+!data/wrist_features.csv
+
+# Keep ONNX and production pickle models in repo for deployment
+!models/*.onnx
+!models/*.pkl
+!models/model_metadata.json
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.zip
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
